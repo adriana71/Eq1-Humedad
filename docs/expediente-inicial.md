@@ -20,8 +20,6 @@ Los principales grupos beneficiados que identificamos son:
 - Operadores de invernaderos.
 - Investigadores agricolas.
 - Docentes de ingeniería.
-## 6. ¿Qué sabemos y que debemos averiguar?
-
 ## 6. ¿Qué sabemos y qué debemos averiguar?
 
 | Aspecto | Qué sabemos | Qué necesitamos averiguar |
