@@ -31,3 +31,13 @@ Los principales grupos beneficiados que identificamos son:
 | **Información técnica necesaria** | Conocemos principios básicos de reflexión de luz IR y funcionamiento de sensores resistivos/capacitivos. | Investigar parámetros ópticos del sustrato, algoritmos de procesamiento de señal, protocolos de comunicación IoT (ej. MQTT, Wi-Fi, LoRa). |
 | **Aspectos relevantes** | El proyecto puede desarrollarse progresivamente durante la carrera y aplicar múltiples conocimientos adquiridos. | Construir la matriz de pruebas: definir macetas, tierra de cultivo, y niveles de humedad controlados para caracterización experimental. |
 
+# Preguntas para comprensión del Proyecto
+- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?.
+- ¿Quién usaría un sensor óptico de bajo costo en lugar de uno comercial?.
+- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?.
+- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?.
+- ¿Cómo generaremos los niveles de humedad de referencia controlados (patrones)? ¿Por peso gravimétrico?.
+- ¿Tenemos balanza de precisión para generar los patrones de humedad?.
+- ¿El sensor debe funcionar con 5V/3.3V del mismo micro del Proyecto 2?.
+- ¿Qué norma de metrología aplica para la calibración y trazabilidad del sensor?.
+- ¿Qué rangos de error han reportado otros sensores ópticos similares?.
