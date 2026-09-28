@@ -1,9 +1,9 @@
 # Control IOT de humedad y temperatura en invernaderos.
 ## 1. Integrantes.
-- Barrera Godínez Diego Alejandro
-- Mosqueda Ramírez José Manuel
-- Párraga Rodríguez Miguel Enrique
-- Tamayo Hernández Juan Pablo
+- Barrera Godínez Diego Alejandro 343516
+- Mosqueda Ramírez José Manuel 289400
+- Párraga Rodríguez Miguel Enrique  314237
+- Tamayo Hernández Juan Pablo 313490
 ## 2. Oportunidad seleccionada.
 Desarrolló y caracterización de un sensor óptico de humedad basado en la reflexión de un haz infrarrojo sobre el sustrato, buscando establecer una relación entre la luz reflejada por el sustrato y el nivel de humedad presente.
 
