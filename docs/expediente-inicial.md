@@ -32,12 +32,16 @@ Los principales grupos beneficiados que identificamos son:
 | **Aspectos relevantes** | El proyecto puede desarrollarse progresivamente durante la carrera y aplicar múltiples conocimientos adquiridos. | Construir la matriz de pruebas: definir macetas, tierra de cultivo, y niveles de humedad controlados para caracterización experimental. |
 
 # Preguntas para comprensión del Proyecto
-- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?.
-- ¿Quién usaría un sensor óptico de bajo costo en lugar de uno comercial?.
-- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?.
-- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?.
-- ¿Cómo generaremos los niveles de humedad de referencia controlados (patrones)? ¿Por peso gravimétrico?.
-- ¿Tenemos balanza de precisión para generar los patrones de humedad?.
-- ¿El sensor debe funcionar con 5V/3.3V del mismo micro del Proyecto 2?.
-- ¿Qué norma de metrología aplica para la calibración y trazabilidad del sensor?.
-- ¿Qué rangos de error han reportado otros sensores ópticos similares?.
+1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?.
+
+2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?.
+
+3.- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?.
+
+4.- ¿Hay algún cambio si el sensor trabaja dentro de un invernadero? ¿Qué pasa si se usa malla sombra?.
+
+5.- ¿Tenemos balanza de precisión para generar los patrones de humedad?.
+
+6.- ¿El sensor debe funcionar con 5V/3.3V del mismo microcontrolador del Proyecto 2?.
+
+7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?.
