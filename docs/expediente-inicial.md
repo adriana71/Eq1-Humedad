@@ -5,7 +5,7 @@
 - Párraga Rodríguez Miguel Enrique  314237
 - Tamayo Hernández Juan Pablo 313490
 ## 2. Oportunidad seleccionada.
-Desarrolló y caracterización de un sensor óptico de humedad basado en la reflexión de un haz infrarrojo sobre el sustrato, buscando establecer una relación entre la luz reflejada por el sustrato y el nivel de humedad presente.
+Desarrollo y caracterización de un sensor óptico de humedad basado en la reflexión de un haz infrarrojo sobre el sustrato, buscando establecer una relación entre la luz reflejada por el sustrato y el nivel de humedad presente.
 
 Creación de un sistema de monitoreo IoT, para registro y visualización de datos, como base para tener una comparativa entre un sensor de humedad tradicional y el sensor óptico propuesto.
 ## 3. Situación, proceso, necesidad o problemática identificada.
@@ -18,7 +18,7 @@ Consideramos que este proyecto es viable, ya que, al estar en una etapa inicial,
 Los principales grupos beneficiados que identificamos son:
 - Productores de Tomate.
 - Operadores de invernaderos.
-- Investigadores agricolas.
+- Investigadores agrícolas.
 - Docentes de ingeniería.
 ## 6. ¿Qué sabemos y qué debemos averiguar?
 
@@ -32,60 +32,60 @@ Los principales grupos beneficiados que identificamos son:
 | **Aspectos relevantes** | El proyecto puede desarrollarse progresivamente durante la carrera y aplicar múltiples conocimientos adquiridos. | Construir la matriz de pruebas: definir macetas, tierra de cultivo, y niveles de humedad controlados para caracterización experimental. |
 
 # 7. Preguntas para comprensión del Proyecto
-1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?.
+1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?
 
-2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?.
+2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?
 
-3.- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?.
+3.- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?
 
-4.- ¿Hay algún cambio si el sensor trabaja dentro de un invernadero? ¿Qué pasa si se usa malla sombra?.
+4.- ¿Hay algún cambio si el sensor trabaja dentro de un invernadero? ¿Qué pasa si se usa malla sombra?
 
-5.- ¿Tenemos balanza de precisión para generar los patrones de humedad?.
+5.- ¿Tenemos balanza de precisión para generar los patrones de humedad?
 
-6.- ¿El sensor debe funcionar con 5V/3.3V del mismo microcontrolador del Proyecto 2?.
+6.- ¿El sensor debe funcionar con 5V/3.3V del mismo microcontrolador del Proyecto 2?
 
-7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?.
+7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?
 
 # U2.2 — Organizar el equipo para iniciar el proyecto
 
 ## 8. Reconocimiento de Participación Inicial
 
-| Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaria aprender o desarrollar... |
+| Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaría aprender o desarrollar... |
 | :--- | :--- | :--- | :--- |
-| @dbarrera13-git | Diseño y desarrollo de electrónica | Administracion y organizacion de las tareas e imforacion en Github | Liderazgo y administración agil de desarrollo y coordinación de proyectos |
-| @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecyo |Planificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
-| @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
+| @dbarrera13-git | Diseño y desarrollo de electrónica | Administración y organización de las tareas e inforacion en GitHub | Liderazgo y administración ágil de desarrollo y coordinación de proyectos |
+| @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecto |Planificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
+| @Miguelg30 | Análisis de datos de humedad del suelo y coordinación del equipo | Organización del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
 | @JPablo-Tamayo |Documentación del proceso de desarrollo del software para el funcionamiento del proyecto|Investigación de los conocimientos y conceptos requeridos para la planeación inicial|Uso de bases de datos para el manejo de plataformas IoT|
 
 ## 9. Necesidades de aprendizaje
 
-| Necesidad identificada | Que sabemos actualmente? | Que necesitamos hacer para atenderla? |
+| Necesidad identificada | ¿Qué sabemos actualmente? | ¿Qué necesitamos hacer para atenderla? |
 | :--- | :--- | :--- |
-| Reflexion de haz IR sobre sustrato | Sabemos principios basicos de Fisica e IR | Investigar diseño de emisor-receptor IR y fotodetector |
-| Generacion de niveles de humedad patron para caracterizacion | Sabemos que la tierra humeda refleja diferente | Aprender a crear patrones de referencia y validacion cruzada con sensor resistivo/capacitivo |
-| Curva de calibracion reflexion vs humedad | Sabemos graficar datos basicos | Aprender Metodos Numericos, regresion no lineal y analisis de repetibilidad y error |
+| Reflexión de haz IR sobre sustrato | Sabemos principios básicos de física e IR | Investigar diseño de emisor-receptor IR y fotodetector |
+| Generación de niveles de humedad patrón para caracterizacion | Sabemos que la tierra humeda refleja diferente | Aprender a crear patrones de referencia y validación cruzada con sensor resistivo/capacitivo |
+| Curva de calibración reflexión vs humedad | Sabemos graficar datos basicos | Aprender métodos numéricos, regresión no lineal y análisis de repetibilidad y error |
 
 ## 10. Definición de Roles y Responsabilidades 
 
-| Responsabilidad | Integrante(s) | Rol de Planeacion | Que debera cuidar o verificar? |
+| Responsabilidad | Integrante(s) | Rol de Planeación | ¿Qué debera cuidar o verificar? |
 | :--- | :--- | :--- | :--- |
-| Coordinación | @Miguelg30 | Coordinador del Equipo | Dar seguimiento a los acuerdos, convocar a reuniones y apoyar en la organizacion del trabajo |
+| Coordinación | @Miguelg30 | Coordinador del Equipo | Dar seguimiento a los acuerdos, convocar a reuniones y apoyar en la organización del trabajo |
 | Documentación | @jmosqueda03-ux | Gestor de Documentación | Mantener actualizado, ordenado y bien redactado el archivo docs/expediente-inicial.md |
 | Seguimiento en GitHub | @dbarrera13-git | Administrador de GitHub | Verificar que los commits y branches esten organizados |
 | Calidad y recursos | @JPablo-Tamayo | Revisor de calidad | Comprobar el cumplimiento de la checklist de la actividad y consolidar información de investigación  |
 
 ## 11. Acuerdos de trabajo
 
-**Canales de comunicación:** De manera oficial y asíncrono se utilizarán los **Issues y Pull Requests de GitHub** para dejar constancia de los avances técnicos, dudas y retroalimentación del proyecto. Para tener una comunicación inmediata entre los miembros se creará un grupo de WhatsApp exclusivo para alertas rápidas, avisos de reuniones y comunicación de emergencias. Para sesiones de trabajo Se utilizara como medio de comunicación efectivo una videollamada semanal a través de Microsoft Teams o Zoom, pero primordialmente serán de manera presenciales en la universidad, para revisar avances conjuntos.
+**Canales de comunicación:** De manera oficial y asíncrona se utilizarán los **Issues y Pull Requests de GitHub** para dejar constancia de los avances técnicos, dudas y retroalimentación del proyecto. Para tener una comunicación inmediata entre los miembros se creará un grupo de WhatsApp exclusivo para alertas rápidas, avisos de reuniones y comunicación de emergencias. Para sesiones de trabajo se utilizará como medio de comunicación efectivo una videollamada semanal a través de Microsoft Teams o Zoom, pero primordialmente serán de manera presencial en la universidad, para revisar avances conjuntos.
 
 **Distribución y seguimiento:** Toda actividad se registrará en el **Proyecto de Github** del repositorio, asignando explícitamente un responsable y una fecha límite. El coordinador actualizará el estado de los pendientes en cada sesión semanal, clasificando las tareas en: *Por hacer*, *En proceso* y *Hecho*.
 
-**Fechas y pendientes:** Se respetarán las fechas de entrega establecidos por la profesora, nuestro asesor de proyecto y en conjunto de acuerdo a las necesidades del trabajo. Para evitar retrasos, el equipo entregará sus avances individuales 12 horas antes de la fecha límite oficial del profesor.
+**Fechas y pendientes:** Se respetarán las fechas de entrega establecidas por la profesora, nuestro asesor de proyecto y en conjunto de acuerdo a las necesidades del trabajo. Para evitar retrasos, el equipo entregará sus avances individuales 12 horas antes de la fecha límite oficial del profesor.
 
 **Atención a dificultades o incumplimientos:** Si un integrante no puede cumplir con su tarea por razones de fuerza mayor, deberá avisar al grupo con al menos 24 horas de anticipación. Ante un retraso justificado, el equipo redistribuirá la carga de trabajo para no afectar el cronograma general. En caso de que un integrante no cumpla de forma reiterada y sin justificación, se realizará una llamada de atención en conjunto con el profesor.
 
 **Resolución de diferencias:** Cualquier desacuerdo sobre el diseño, algoritmos o metodologías se resolverá argumentando con bases técnicas y datos de investigación. Si persiste el empate en una decisión de planeación, se realizará una votación por mayoría simple. En caso de un conflicto mayor, el gestor de documentación actuará como mediador neutral.
 
-**Revisión antes de entregar:** Los cambios se subirán directamente a la rama principal, para que los integrantes puedan realizar validaciones, comentarios y modificaciones en caso de ser necesarios. Estas observaciones también podrán realizarse en las sesiones de reunión del equipo. El gestor de documentación revisará la ortografía, coherencia y formato de los archivos antes de la entrega final.
+**Revisión antes de entregar:** Durante la etapa inicial de planeación el uso de múltiples ramas se deja a consideración del editor en base a su criterio de la complejidad de los cambios realizados, si el cambio no puede tener un efecto critico en el proyecto se permite el trabajar directamente sobre el main; en etapas posteriores, una vez iniciado con el desarrolló y ejecución del proyecto será obligatorio trabajar en ramas auxiliares y cada cambio tendrá que ser aceptado por lo menos por otro integrante del equipo dejando documentación clara de los cambios realizados. Estas observaciones también podrán realizarse en las sesiones de reunión del equipo. El gestor de documentación revisará la ortografía, coherencia y formato de los archivos antes de la entrega final.
 
 **Difusión de decisiones:** Las decisiones tomadas en las reuniones verbales se registrarán al final de la sesión en el archivo `docs/expediente-inicial.md` o en el chat oficial. Todo acuerdo que modifique el rumbo del desarrollo quedará documentado de forma pública en el repositorio.
