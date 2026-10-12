@@ -74,3 +74,18 @@ Los principales grupos beneficiados que identificamos son:
 | Seguimiento en GitHub | Por definir | Administrador(a) de GitHub | Verificar que los commits y branches esten organizados |
 
 > Comentario de @Miguelg30: Acepto el rol de Coordinador del equipo. Me encargare de dar seguimiento y convocar reuniones.
+
+## Acuerdos de trabajo (Actividad 4)
+**Canales de comunicación:** De manera oficial y asíncrono se utilizarán los **Issues y Pull Requests de GitHub** para dejar constancia de los avances técnicos, dudas y retroalimentación del proyecto. Para tener una comunicación inmediata entre los miembros se creará un grupo de WhatsApp exclusivo para alertas rápidas, avisos de reuniones y comunicación de emergencias. Para sesiones de trabajo Se utilizara como medio de comunicación efectivo una videollamada semanal a través de Microsoft Teams o Zoom, pero primordialmente serán de manera presenciales en la universidad, para revisar avances conjuntos.
+
+**Distribución y seguimiento:** Toda actividad se registrará en el **Proyecto de Github** del repositorio, asignando explícitamente un responsable y una fecha límite. El coordinador actualizará el estado de los pendientes en cada sesión semanal, clasificando las tareas en: *Por hacer*, *En proceso* y *Hecho*.
+
+**Fechas y pendientes:** Se respetarán las fechas de entrega establecidos por la profesora, nuestro asesor de proyecto y en conjunto de acuerdo a las necesidades del trabajo. Para evitar retrasos, el equipo entregará sus avances individuales 12 horas antes de la fecha límite oficial del profesor.
+
+**Atención a dificultades o incumplimientos:** Si un integrante no puede cumplir con su tarea por razones de fuerza mayor, deberá avisar al grupo con al menos 24 horas de anticipación. Ante un retraso justificado, el equipo redistribuirá la carga de trabajo para no afectar el cronograma general. En caso de que un integrante no cumpla de forma reiterada y sin justificación, se realizará una llamada de atención en conjunto con el profesor.
+
+**Resolución de diferencias:** Cualquier desacuerdo sobre el diseño, algoritmos o metodologías se resolverá argumentando con bases técnicas y datos de investigación. Si persiste el empate en una decisión de planeación, se realizará una votación por mayoría simple. En caso de un conflicto mayor, el gestor de documentación actuará como mediador neutral.
+
+**Revisión antes de entregar:** Los cambios se subirán directamente a la rama principal, para que los integrantes puedan realizar validaciones, comentarios y modificaciones en caso de ser necesarios. Estas observaciones también podrán realizarse en las sesiones de reunión del equipo. El gestor de documentación revisará la ortografía, coherencia y formato de los archivos antes de la entrega final.
+
+**Difusión de decisiones:** Las decisiones tomadas en las reuniones verbales se registrarán al final de la sesión en el archivo `docs/expediente-inicial.md` o en el chat oficial. Todo acuerdo que modifique el rumbo del desarrollo quedará documentado de forma pública en el repositorio.
