@@ -55,7 +55,7 @@ Los principales grupos beneficiados que identificamos son:
 | @dbarrera13-git | Diseño y desarrollo de electrónica | Administracion y organizacion de las tareas e imforacion en Github | Liderazgo y administración agil de desarrollo y coordinación de proyectos |
 | @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecyo |Planificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
 | @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
-| @JPablo-Tamayo |  |  |  |
+| @JPablo-Tamayo |Documentación del proceso de desarrollo del software para el funcionamiento del proyecto|Investigación de los conocimientos y conceptos requeridos para la planeación inicial|Uso de bases de datos para el manejo de plataformas IoT|
 
 ## 9. Necesidades de aprendizaje
 
