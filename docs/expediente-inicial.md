@@ -57,7 +57,7 @@ Los principales grupos beneficiados que identificamos son:
 | @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
 | @JPablo-Tamayo |  |  |  |
 
-## Actividad 2: Necesidades de aprendizaje - Proyecto 3
+## Necesidades de aprendizaje (Actividad 2)
 
 | Necesidad identificada | Que sabemos actualmente? | Que necesitamos hacer para atenderla? |
 | :--- | :--- | :--- |
