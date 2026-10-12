@@ -45,3 +45,32 @@ Los principales grupos beneficiados que identificamos son:
 6.- ¿El sensor debe funcionar con 5V/3.3V del mismo microcontrolador del Proyecto 2?.
 
 7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?.
+
+# U2.2 — Organizar el equipo para iniciar el proyecto
+
+## Tabla 1: Reconocimiento de Participacion Inicial
+
+| Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaria aprender o desarrollar... |
+| :--- | :--- | :--- | :--- |
+| @dbarrera13-git |  |  |  |
+| @jmosqueda03-ux |  |  |  |
+| @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
+| @JPablo-Tamayo |  |  |  |
+
+## Actividad 2: Necesidades de aprendizaje - Proyecto 3
+
+| Necesidad identificada | Que sabemos actualmente? | Que necesitamos hacer para atenderla? |
+| :--- | :--- | :--- |
+| Reflexion de haz IR sobre sustrato | Sabemos principios basicos de Fisica e IR | Investigar diseño de emisor-receptor IR y fotodetector |
+| Generacion de niveles de humedad patron para caracterizacion | Sabemos que la tierra humeda refleja diferente | Aprender a crear patrones de referencia y validacion cruzada con sensor resistivo/capacitivo |
+| Curva de calibracion reflexion vs humedad | Sabemos graficar datos basicos | Aprender Metodos Numericos, regresion no lineal y analisis de repetibilidad y error |
+
+## Definicion de Roles y Responsabilidades (Actividad 3)
+
+| Responsabilidad | Integrante(s) | Rol de Planeacion | Que debera cuidar o verificar? |
+| :--- | :--- | :--- | :--- |
+| Coordinacion | @Miguelg30 | Coordinador(a) del Equipo | Dar seguimiento a los acuerdos, convocar a reuniones y apoyar en la organizacion del trabajo. |
+| Documentacion | @jmosqueda03-ux | Gestor(a) de Documentacion | Mantener actualizado, ordenado y bien redactado el archivo docs/expediente-inicial.md |
+| Seguimiento en GitHub | Por definir | Administrador(a) de GitHub | Verificar que los commits y branches esten organizados |
+
+> Comentario de @Miguelg30: Acepto el rol de Coordinador del equipo. Me encargare de dar seguimiento y convocar reuniones.
