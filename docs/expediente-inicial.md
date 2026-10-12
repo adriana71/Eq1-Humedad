@@ -31,7 +31,7 @@ Los principales grupos beneficiados que identificamos son:
 | **Información técnica necesaria** | Conocemos principios básicos de reflexión de luz IR y funcionamiento de sensores resistivos/capacitivos. | Investigar parámetros ópticos del sustrato, algoritmos de procesamiento de señal, protocolos de comunicación IoT (ej. MQTT, Wi-Fi, LoRa). |
 | **Aspectos relevantes** | El proyecto puede desarrollarse progresivamente durante la carrera y aplicar múltiples conocimientos adquiridos. | Construir la matriz de pruebas: definir macetas, tierra de cultivo, y niveles de humedad controlados para caracterización experimental. |
 
-# Preguntas para comprensión del Proyecto
+# 7. Preguntas para comprensión del Proyecto
 1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?.
 
 2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?.
@@ -48,16 +48,16 @@ Los principales grupos beneficiados que identificamos son:
 
 # U2.2 — Organizar el equipo para iniciar el proyecto
 
-## Tabla 1: Reconocimiento de Participacion Inicial
+## 8. Reconocimiento de Participación Inicial
 
 | Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaria aprender o desarrollar... |
 | :--- | :--- | :--- | :--- |
-| @dbarrera13-git |  |  |  |
+| @dbarrera13-git | Diseño y desarrollo de electrónica | Administracion y organizacion de las tareas e imforacion en Github | Liderazgo y administración agil de desarrollo y coordinación de proyectos |
 | @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecyo |Planificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
 | @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
 | @JPablo-Tamayo |  |  |  |
 
-## Actividad 2: Necesidades de aprendizaje - Proyecto 3
+## 9. Necesidades de aprendizaje
 
 | Necesidad identificada | Que sabemos actualmente? | Que necesitamos hacer para atenderla? |
 | :--- | :--- | :--- |
@@ -65,17 +65,17 @@ Los principales grupos beneficiados que identificamos son:
 | Generacion de niveles de humedad patron para caracterizacion | Sabemos que la tierra humeda refleja diferente | Aprender a crear patrones de referencia y validacion cruzada con sensor resistivo/capacitivo |
 | Curva de calibracion reflexion vs humedad | Sabemos graficar datos basicos | Aprender Metodos Numericos, regresion no lineal y analisis de repetibilidad y error |
 
-## Definicion de Roles y Responsabilidades (Actividad 3)
+## 10. Definición de Roles y Responsabilidades 
 
 | Responsabilidad | Integrante(s) | Rol de Planeacion | Que debera cuidar o verificar? |
 | :--- | :--- | :--- | :--- |
-| Coordinacion | @Miguelg30 | Coordinador(a) del Equipo | Dar seguimiento a los acuerdos, convocar a reuniones y apoyar en la organizacion del trabajo. |
-| Documentacion | @jmosqueda03-ux | Gestor(a) de Documentacion | Mantener actualizado, ordenado y bien redactado el archivo docs/expediente-inicial.md |
-| Seguimiento en GitHub | Por definir | Administrador(a) de GitHub | Verificar que los commits y branches esten organizados |
+| Coordinación | @Miguelg30 | Coordinador del Equipo | Dar seguimiento a los acuerdos, convocar a reuniones y apoyar en la organizacion del trabajo |
+| Documentación | @jmosqueda03-ux | Gestor de Documentación | Mantener actualizado, ordenado y bien redactado el archivo docs/expediente-inicial.md |
+| Seguimiento en GitHub | @dbarrera13-git | Administrador de GitHub | Verificar que los commits y branches esten organizados |
+| Calidad y recursos | @JPablo-Tamayo | Revisor de calidad | Comprobar el cumplimiento de la checklist de la actividad y consolidar información de investigación  |
 
-> Comentario de @Miguelg30: Acepto el rol de Coordinador del equipo. Me encargare de dar seguimiento y convocar reuniones.
+## 11. Acuerdos de trabajo
 
-## Acuerdos de trabajo (Actividad 4)
 **Canales de comunicación:** De manera oficial y asíncrono se utilizarán los **Issues y Pull Requests de GitHub** para dejar constancia de los avances técnicos, dudas y retroalimentación del proyecto. Para tener una comunicación inmediata entre los miembros se creará un grupo de WhatsApp exclusivo para alertas rápidas, avisos de reuniones y comunicación de emergencias. Para sesiones de trabajo Se utilizara como medio de comunicación efectivo una videollamada semanal a través de Microsoft Teams o Zoom, pero primordialmente serán de manera presenciales en la universidad, para revisar avances conjuntos.
 
 **Distribución y seguimiento:** Toda actividad se registrará en el **Proyecto de Github** del repositorio, asignando explícitamente un responsable y una fecha límite. El coordinador actualizará el estado de los pendientes en cada sesión semanal, clasificando las tareas en: *Por hacer*, *En proceso* y *Hecho*.
