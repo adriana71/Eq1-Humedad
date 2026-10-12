@@ -53,7 +53,7 @@ Los principales grupos beneficiados que identificamos son:
 | Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaria aprender o desarrollar... |
 | :--- | :--- | :--- | :--- |
 | @dbarrera13-git |  |  |  |
-| @jmosqueda03-ux |  |  |  |
+| @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecyo |PLanificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
 | @Miguelg30 | Analisis de datos de humedad del suelo y coordinacion del equipo | Organizacion del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
 | @JPablo-Tamayo |  |  |  |
 
