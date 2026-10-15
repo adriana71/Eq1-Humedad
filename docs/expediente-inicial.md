@@ -90,5 +90,3 @@ Los principales grupos beneficiados que identificamos son:
 
 **Difusión de decisiones:** Las decisiones tomadas en las reuniones verbales se registrarán al final de la sesión en el archivo `docs/expediente-inicial.md` o en el chat oficial. Todo acuerdo que modifique el rumbo del desarrollo quedará documentado de forma pública en el repositorio.
 
-
-Información dummy....fjslfkjsdlfkjañflkdjfñlakfjsdlfkjsdñlfkdjñldsjfñdlkfjdñlfjd
