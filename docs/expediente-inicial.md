@@ -89,6 +89,3 @@ Los principales grupos beneficiados que identificamos son:
 **Revisión antes de entregar:** Durante la etapa inicial de planeación el uso de múltiples ramas se deja a consideración del editor en base a su criterio de la complejidad de los cambios realizados, si el cambio no puede tener un efecto critico en el proyecto se permite el trabajar directamente sobre el main; en etapas posteriores, una vez iniciado con el desarrolló y ejecución del proyecto será obligatorio trabajar en ramas auxiliares y cada cambio tendrá que ser aceptado por lo menos por otro integrante del equipo dejando documentación clara de los cambios realizados. Estas observaciones también podrán realizarse en las sesiones de reunión del equipo. El gestor de documentación revisará la ortografía, coherencia y formato de los archivos antes de la entrega final.
 
 **Difusión de decisiones:** Las decisiones tomadas en las reuniones verbales se registrarán al final de la sesión en el archivo `docs/expediente-inicial.md` o en el chat oficial. Todo acuerdo que modifique el rumbo del desarrollo quedará documentado de forma pública en el repositorio.
-
-
-Información dummy....fjslfkjsdlfkjañflkdjfñlakfjsdlfkjsdñlfkdjñldsjfñdlkfjdñlfjd
