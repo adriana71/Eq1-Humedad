@@ -33,19 +33,19 @@ Los principales grupos beneficiados que identificamos son:
 
 # 7. Preguntas para comprensión del Proyecto
 1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?
-
+Se mide por validación cruzada contra un sensor de humedad de referencia resistivo o capacitivo
 2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?
-
+Se requiere una precisión de ±5% de humedad volumétrica.
 3.- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?
-
+Sí. El sensor mide la intensidad de reflexión de un haz infrarrojo sobre el sustrato, por lo que el fotodetector no distingue entre la radiación emitida y la luz ambiental.
 4.- ¿Hay algún cambio si el sensor trabaja dentro de un invernadero? ¿Qué pasa si se usa malla sombra?
-
+Sí. En invernadero aumentan la temperatura y la humedad ambiental y disminuye la luz directa, lo que modifica la velocidad de secado del sustrato. Con malla sombra disminuye aún más la radiación, lo que reduce la interferencia en el fotodetector, pero también cambia la evaporación.
 5.- ¿Tenemos balanza de precisión para generar los patrones de humedad?
-
+No se hace uso de balanza de precesión en el proyecto.
 6.- ¿El sensor debe funcionar con 5V/3.3V del mismo microcontrolador del Proyecto 2?
-
+Al ser proyectos hermanos el proyecto es necesario que el sensor funcione con los 5V/3.3V del mismo microcontrolador del Proyecto 2.
 7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?
-
+ los sensores ópticos y capacitivos de bajo costo reportan errores de ±3% a ±8%, con mayor error en suelo muy seco o saturado, donde la reflectancia se satura.
 # U2.2 — Organizar el equipo para iniciar el proyecto
 
 ## 8. Reconocimiento de Participación Inicial
