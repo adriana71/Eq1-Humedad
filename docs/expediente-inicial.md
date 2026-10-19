@@ -31,12 +31,12 @@ Los principales grupos beneficiados que identificamos son:
 | **Información técnica necesaria** | Conocemos principios básicos de reflexión de luz IR y funcionamiento de sensores resistivos/capacitivos. | Investigar parámetros ópticos del sustrato, algoritmos de procesamiento de señal, protocolos de comunicación IoT (ej. MQTT, Wi-Fi, LoRa). |
 | **Aspectos relevantes** | El proyecto puede desarrollarse progresivamente durante la carrera y aplicar múltiples conocimientos adquiridos. | Construir la matriz de pruebas: definir macetas, tierra de cultivo, y niveles de humedad controlados para caracterización experimental. |
 
-# 7. Preguntas para comprensión del Proyecto
+## 7. Preguntas para comprensión del Proyecto
 1.- ¿Cómo se mide actualmente la humedad de referencia para comparar nuestro sensor?
-- Se mide por validación cruzada contra un sensor de humedad de referencia resistivo o capacitivo
+- Se mide por validación cruzada contra un sensor de humedad de referencia resistivo o capacitivo.
 
 2.- ¿Qué precisión mínima necesita el usuario para considerar útil el sensor óptico?
-Se requiere una precisión de ±5% de humedad volumétrica.
+- Se requiere una precisión de ±5% de humedad volumétrica.
 
 3.- ¿La luz ambiental afectará la lectura del fotodetector? ¿Se necesita encapsulado oscuro?
 - Sí. El sensor mide la intensidad de reflexión de un haz infrarrojo sobre el sustrato, por lo que el fotodetector no distingue entre la radiación emitida y la luz ambiental.
@@ -52,25 +52,35 @@ Se requiere una precisión de ±5% de humedad volumétrica.
 
 7.- ¿Qué rangos de error han reportado otros sensores ópticos similares?
 - los sensores ópticos y capacitivos de bajo costo reportan errores de ±3% a ±8%, con mayor error en suelo muy seco o saturado, donde la reflectancia se satura.
- 
-# U2.2 — Organizar el equipo para iniciar el proyecto
 
 ## 8. Reconocimiento de Participación Inicial
 
 | Integrante | Me interesa participar en... | Inicialmente puedo colaborar en... | Me gustaría aprender o desarrollar... |
 | :--- | :--- | :--- | :--- |
-| @dbarrera13-git | Diseño y desarrollo de electrónica | Administración y organización de las tareas e inforacion en GitHub | Liderazgo y administración ágil de desarrollo y coordinación de proyectos |
+| @dbarrera13-git | Diseño CAD y desarrollo de electrónica | Administración y organización de las tareas e inforacion en GitHub | Liderazgo y administración ágil de desarrollo y coordinación de proyectos |
 | @jmosqueda03-ux | Trabajo técnico y planificación en el desarrollo del proyecto |Planificación y organización del planteamiento y desarrollo | Organización y manejo de nuevas herramientas digitales y de dirección de proyectos |
 | @Miguelg30 | Análisis de datos de humedad del suelo y coordinación del equipo | Organización del trabajo, seguimiento de acuerdos y apoyo en GitHub | Liderazgo, manejo de proyectos y trabajo en equipo |
 | @JPablo-Tamayo |Documentación del proceso de desarrollo del software para el funcionamiento del proyecto|Investigación de los conocimientos y conceptos requeridos para la planeación inicial|Uso de bases de datos para el manejo de plataformas IoT|
 
 ## 9. Necesidades de aprendizaje
 
-| Necesidad identificada | ¿Qué sabemos actualmente? | ¿Qué necesitamos hacer para atenderla? |
-| :--- | :--- | :--- |
-| Reflexión de haz IR sobre sustrato | Sabemos principios básicos de física e IR | Investigar diseño de emisor-receptor IR y fotodetector |
-| Generación de niveles de humedad patrón para caracterizacion | Sabemos que la tierra humeda refleja diferente | Aprender a crear patrones de referencia y validación cruzada con sensor resistivo/capacitivo |
-| Curva de calibración reflexión vs humedad | Sabemos graficar datos basicos | Aprender métodos numéricos, regresión no lineal y análisis de repetibilidad y error |
+| Tema | Conocimientos previos | Conocimientos por adquirir | Recurso de aprendizaje | Aplicación en el proyecto | 
+| :--- | :--- | :--- | :--- | :--- |
+| Programación en C++ | Fudamentos de programación, variables y estructuras de control. | Lectura de sensores, procesamiento de datos y comunicación serial. | Visual studio / Arduino IDE | Programación de sensores IR y procesamiento de mediciones.|
+| Programación de microcontroladores PIC | Conceptos básicos de programación y electrónica digital. | Configuración de puertos, temporizadores, entradas y salidas, y lectura de sensores. | PIC C Compiler | Programación del microcontrolador para adquirir y procesar datos de temperatura y humedad. |
+| Diseño de circuitos | Fundamentos de electricidad, componentes electrónicos y diagramas eléctricos. | Simulación de circuitos, selección de componentes y comprobación de conexiones. | Proteus | Simulación y validación del circuito electrónico antes de construirlo. |
+| Diseño de PCBS | Conocimientos básicos de circuitos electrónicos. | Diseño esquemático, selección de huellas, distribución de componentes y trazado de pistas. | FUSION 360 (Electronics) | Diseño de la tarjeta electrónica para integrar el microcontrolador y los sensores. |
+| Manufactura de PCBS | Conocimientos básicos de electrónica y soldadura. | Generación de archivos Gerber, preparación de archivos de fabricación, perforación y montaje de componentes. | PCB toolkit | Fabricación y ensamblaje de la tarjeta electrónica del sistema. |
+| Integración y validacóon | Conocimientos básicos de electrónica, programación y uso de instrumentos de medición. | Integración de hardware y software, calibración, detección de fallas y comparación con instrumentos de referencia. | Multímetro, data sheets y manuales técnicos | Comprobar que el sistema mida correctamente la temperatura y humedad del cultivo. |
+| Diseño CAD | Conocimientos básicos de dibujo técnico y modelado tridimensional. | Diseño de soportes, carcasas y piezas para montaje, considerando dimensiones y accesibilidad. | SOLIDWORKS | Diseñar la carcasa y los soportes para proteger y fijar los componentes del sistema de monitoreo. |
+
+| Integrante | Rol principal | Responsabilidades asignadas | Temas de aprendizaje relacionados |
+| :--- | :--- | :--- | :--- |
+| @dbarrera13-git | Responsable de electrónica y diseño CAD | Diseñar los circuitos electrónicos, desarrollar la PCB y diseñar los soportes y la carcasa del sistema. Organizar las tareas y los archivos técnicos en GitHub. | Diseño de circuitos, diseño de PCB, manufactura de PCB y diseño CAD. |
+| @jmosqueda03-ux | Responsable de planificación e integración del sistema | Organizar las etapas de desarrollo, coordinar la integración del hardware y software, dar seguimiento al cronograma y apoyar en las pruebas del prototipo. | Programación de microcontroladores, integración y validación. |
+| @Miguelg30 | Responsable de análisis de datos y seguimiento del proyecto | Analizar las mediciones de humedad y temperatura, organizar el trabajo del equipo, dar seguimiento a los acuerdos y apoyar en la administración de tareas en GitHub. | Adquisición y procesamiento de datos, integración y validación. |
+| @JPablo-Tamayo | Responsable de documentación y gestión de datos | Documentar el desarrollo del software, investigar los conceptos requeridos para el proyecto y estudiar las bases de datos y plataformas IoT para almacenar y consultar las mediciones. | Programación en C++, comunicación de datos, almacenamiento y plataformas IoT. |
+
 
 ## 10. Definición de Roles y Responsabilidades 
 
