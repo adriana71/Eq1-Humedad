@@ -26,10 +26,12 @@ Consideramos que este proyecto es viable, ya que, al estar en una etapa inicial,
 ## 5. Personas, grupos, organizaciones, procesos o sectores que podrían beneficiarse.
 
 Los principales grupos beneficiados que identificamos son:
-- Productores de Tomate.
-- Operadores de invernaderos.
-- Investigadores agrícolas.
-- Docentes de ingeniería.
+| Nombre | Cargo | Organización | Forma de contactar |
+|--------|-------|--------------|--------------------|
+| Julio Cortés (Productor de tomates) | Junior Grower | Finka Ahuehuetes S.A. de C.V. / Finka, Querétaro | Contacto institucional a través del sitio / administración de Finka Ahuehuetes Querétaro |
+|  Montserrat Duarte (Operadora de invernadero | Directora Ejecutiva | Agros Produce LLC, productora de tomates en invernadero en Querétaro, Bajío | A través del canal institucional de la empresa Agros Produce |
+| Dra. Rosalinda González Santos (investigadora agricola) | Profesora-Investigadora de tiempo completo / Facultad de Ciencias Naturales, Universidad Autónoma de Querétaro (UAQ) | Universidad Autónoma de Querétaro | Contacto institucional a través del directorio de la Facultad de Ciencias Naturales UAQ. Su perfil público la lista como profesora-investigadora con líneas en agrobiodiversidad y plantas nativas |
+| Dr. Irineo Torres Pacheco (Docente de ingenieria) | Docente-Investigador / Facultad de Ingeniería, UAQ - Departamento de Biosistemas, Campus Amazcala | Universidad Autónoma de Querétaro | Contacto institucional a través de la Facultad de Ingeniería UAQ. Aparece como autor en investigación sobre fertilización carbónica en invernaderos y productividad de jitomate en el Campus Amazcala, UAQ | 
 
 ## 6. ¿Qué sabemos y qué debemos averiguar?
 
