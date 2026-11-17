@@ -253,7 +253,7 @@ Cada nueva decisión deberá incluir los siguientes elementos:
 
 De esta manera, el registro permitirá responder qué eligió el equipo y por qué lo hizo, conservando la justificación de las decisiones y facilitando su consulta durante las diferentes etapas del proyecto.
 
-### 14.3. Actualización del registro
+### Actualización del registro
 
 El registro se actualizará conforme se presenten nuevas decisiones durante el desarrollo del proyecto. Cuando una decisión anterior sea modificada, se deberá documentar el cambio y explicar las razones que lo motivaron, evitando perder el contexto de los criterios utilizados inicialmente.
 
