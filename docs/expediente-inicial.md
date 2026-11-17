@@ -133,7 +133,7 @@ Los principales grupos beneficiados que identificamos son:
 
 ## 13. Organización documental y estructura del repositorio
 
-### 13.1. Estructura documental acordada
+### Estructura documental acordada
 
 Para mantener organizada la información y facilitar el seguimiento del desarrollo del proyecto, se estableció una estructura básica para el repositorio de GitHub.
 
@@ -159,7 +159,7 @@ Cada elemento tendrá una función específica:
 
 Esta estructura podrá ampliarse conforme surjan nuevas necesidades durante el desarrollo del proyecto, evitando crear carpetas que todavía no tengan una función definida.
 
-### 13.2. Regla para nombrar archivos
+### Regla para nombrar archivos
 
 Como equipo, se establece utilizar nombres descriptivos, breves y consistentes para identificar los archivos incorporados al repositorio.
 
@@ -187,7 +187,7 @@ Algunos ejemplos de aplicación serán:
 
 Esta convención será utilizada por todos los integrantes para facilitar la identificación, consulta y actualización de los archivos.
 
-### 13.3. Acuerdos de organización y mantenimiento
+### Acuerdos de organización y mantenimiento
 
 El equipo acuerda mantener actualizados los documentos del repositorio conforme avance el proyecto.
 
@@ -196,3 +196,65 @@ El responsable de documentación dará seguimiento a la organización y redacci�
 Las evidencias del desarrollo se almacenarán en la carpeta correspondiente y los documentos formales se organizarán dentro de `docs/`.
 
 Los cambios realizados deberán registrarse mediante commits con mensajes descriptivos que permitan identificar las modificaciones efectuadas.
+
+## 14. Registro de decisiones iniciales del proyecto
+
+Durante la etapa de planeación, el equipo identificó y estableció diferentes decisiones que orientarán el desarrollo del proyecto. El propósito de este registro es conservar las razones por las cuales se seleccionaron determinadas alternativas y permitir que todos los integrantes puedan consultar los criterios utilizados durante la planeación y las siguientes etapas de desarrollo.
+
+### Decisiones tomadas
+
+**Decisión 1. Desarrollo de un sensor óptico infrarrojo para la medición de humedad**
+
+- **¿Qué se decidió?** Desarrollar y caracterizar un sensor óptico que utilice la reflexión de un haz infrarrojo sobre la superficie del sustrato para estimar su nivel de humedad.
+- **¿Por qué se eligió?** Se busca explorar una alternativa de medición menos invasiva que los sensores resistivos o capacitivos tradicionales, los cuales requieren contacto directo con el sustrato.
+- **¿Cómo influye en el proyecto?** Define una de las principales líneas de desarrollo e investigación del sistema, por lo que será necesario estudiar las propiedades ópticas del sustrato y la relación entre la luz reflejada y su contenido de humedad.
+
+**Decisión 2. Implementación de un sistema de monitoreo IoT**
+
+- **¿Qué se decidió?** Integrar un sistema IoT para registrar, almacenar y visualizar los datos de humedad y temperatura.
+- **¿Por qué se eligió?** Se identificó la necesidad de contar con información continua y centralizada que facilite el seguimiento de las condiciones del cultivo y apoye la toma de decisiones.
+- **¿Cómo influye en el proyecto?** Establece la necesidad de desarrollar la comunicación entre los sensores, el microcontrolador y una plataforma que permita consultar los datos obtenidos.
+
+**Decisión 3. Utilizar plántulas de tomate como referencia inicial**
+
+- **¿Qué se decidió?** Tomar las plántulas de tomate como cultivo de referencia para las primeras etapas de experimentación.
+- **¿Por qué se eligió?** El equipo identificó el monitoreo de cultivos de tomate en invernaderos como una oportunidad de aplicación del proyecto.
+- **¿Cómo influye en el proyecto?** Permite delimitar inicialmente las condiciones de prueba y orientar la investigación hacia las necesidades de este tipo de cultivo, sin descartar que posteriormente el sistema pueda adaptarse a otros cultivos.
+
+**Decisión 4. Utilizar el método gravimétrico como referencia para medir la humedad**
+
+- **¿Qué se decidió?** Utilizar el método gravimétrico para obtener valores de referencia del contenido de agua en el sustrato.
+- **¿Por qué se eligió?** Permite comparar las mediciones del sensor óptico con una metodología basada en la diferencia de masa entre una muestra húmeda y una muestra seca.
+- **¿Cómo influye en el proyecto?** Servirá como referencia para la caracterización y evaluación experimental del sensor óptico, permitiendo analizar qué tan cercanas son sus mediciones a los valores obtenidos mediante el método gravimétrico.
+
+**Decisión 5. Comparar el sensor óptico con un sensor comercial**
+
+- **¿Qué se decidió?** Realizar comparaciones entre las lecturas del sensor óptico propuesto y las de un sensor comercial de humedad.
+- **¿Por qué se eligió?** Se busca evaluar el comportamiento del prototipo y conocer sus diferencias respecto a una alternativa de medición existente.
+- **¿Cómo influye en el proyecto?** Permitirá analizar el desempeño del sensor, identificar posibles errores y determinar si requiere ajustes o procedimientos adicionales de calibración.
+
+**Decisión 6. Establecer un objetivo preliminar de precisión**
+
+- **¿Qué se decidió?** Considerar inicialmente un error máximo de ±5 puntos porcentuales de humedad volumétrica como objetivo de desempeño del sensor.
+- **¿Por qué se eligió?** Se considera un criterio inicial para orientar el desarrollo y la evaluación del prototipo, tomando en cuenta la utilidad que podría representar para los usuarios.
+- **¿Cómo influye en el proyecto?** Servirá como referencia para analizar los resultados experimentales y determinar si el prototipo cumple con los requerimientos planteados. Este objetivo podrá ajustarse de acuerdo con las pruebas realizadas y las necesidades identificadas con los usuarios.
+
+### Criterios para registrar nuevas decisiones
+
+El equipo acuerda documentar las decisiones que definan o modifiquen aspectos importantes del proyecto durante su desarrollo.
+
+Antes de registrar una entrada, se verificará si el equipo seleccionó entre diferentes alternativas o estableció un criterio que influirá en el desarrollo del proyecto. Si se trata únicamente de una actividad o tarea pendiente, no se registrará como decisión.
+
+Cada nueva decisión deberá incluir los siguientes elementos:
+
+- **Decisión tomada:** descripción de la alternativa seleccionada o del criterio establecido.
+- **Justificación:** explicación de por qué se eligió esa alternativa y qué aspectos se consideraron.
+- **Impacto en el proyecto:** descripción de cómo influye la decisión en el diseño, la investigación, la experimentación o el desarrollo del sistema.
+
+De esta manera, el registro permitirá responder qué eligió el equipo y por qué lo hizo, conservando la justificación de las decisiones y facilitando su consulta durante las diferentes etapas del proyecto.
+
+### 14.3. Actualización del registro
+
+El registro se actualizará conforme se presenten nuevas decisiones durante el desarrollo del proyecto. Cuando una decisión anterior sea modificada, se deberá documentar el cambio y explicar las razones que lo motivaron, evitando perder el contexto de los criterios utilizados inicialmente.
+
+Todos los integrantes podrán proponer nuevas entradas, las cuales deberán revisarse y acordarse en equipo antes de incorporarse al expediente inicial.
