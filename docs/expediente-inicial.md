@@ -130,3 +130,69 @@ Los principales grupos beneficiados que identificamos son:
 4.- A temperature compensated soil specific calibration approach for frequency domain soil moisture sensors for in-situ agricultural applications. (2021). En 2021 IEEE Sensors Applications Symposium (SAS). https://doi.org/10.1109/SAS51076.2021.9530177
 
 5.- Mane, S., Das, N., Singh, G., Cosh, M., & Dong, Y. (2024). Advancements in dielectric soil moisture sensor calibration: A comprehensive review of methods and techniques. Computers and Electronics in Agriculture, 218, Article 108686. https://doi.org/10.1016/j.compag.2024.108686
+
+## 13. Organización documental y estructura del repositorio
+
+### 13.1. Estructura documental acordada
+
+Para mantener organizada la información y facilitar el seguimiento del desarrollo del proyecto, se estableció una estructura básica para el repositorio de GitHub.
+
+La estructura inicial será la siguiente:
+
+```text
+Control-IoT-Invernaderos/
+│
+├── README.md
+│
+├── docs/
+│   └── expediente-inicial.md
+│
+└── evidencias/
+```
+
+Cada elemento tendrá una función específica:
+
+- **README.md:** presentación general del proyecto. Contendrá una descripción, la oportunidad identificada, los integrantes, sus responsabilidades iniciales, la organización del repositorio y el estado actual del proyecto.
+- **docs/:** carpeta destinada a almacenar la documentación formal generada durante las distintas etapas del proyecto.
+- **expediente-inicial.md:** documento que contiene la identificación, planeación y organización inicial del proyecto.
+- **evidencias/:** carpeta destinada a conservar fotografías, diagramas, capturas de pantalla, resultados experimentales y otros archivos que permitan comprobar los avances realizados.
+
+Esta estructura podrá ampliarse conforme surjan nuevas necesidades durante el desarrollo del proyecto, evitando crear carpetas que todavía no tengan una función definida.
+
+### 13.2. Regla para nombrar archivos
+
+Como equipo, se establece utilizar nombres descriptivos, breves y consistentes para identificar los archivos incorporados al repositorio.
+
+La regla general será:
+
+**tipo-de-contenido-descripcion-version.extensión**
+
+Se utilizarán las siguientes convenciones:
+
+- Escribir los nombres en minúsculas.
+- Utilizar guiones medios (-) para separar las palabras.
+- Evitar espacios, acentos y caracteres especiales.
+- Utilizar nombres que describan claramente el contenido del archivo.
+- Cuando existan distintas versiones de un documento, identificarlas mediante `v01`, `v02`, `v03`, etc.
+- Mantener la extensión correspondiente al formato del archivo.
+
+Algunos ejemplos de aplicación serán:
+
+- `expediente-inicial.md`
+- `entrevista-productor-01.pdf`
+- `diagrama-sensor-optico-v01.png`
+- `circuito-acondicionamiento-v02.pdf`
+- `prueba-calibracion-humedad-01.csv`
+- `fotografia-prototipo-01.jpg`
+
+Esta convención será utilizada por todos los integrantes para facilitar la identificación, consulta y actualización de los archivos.
+
+### 13.3. Acuerdos de organización y mantenimiento
+
+El equipo acuerda mantener actualizados los documentos del repositorio conforme avance el proyecto.
+
+El responsable de documentación dará seguimiento a la organización y redacción de los archivos, mientras que el administrador de GitHub verificará que los cambios y contribuciones queden registrados correctamente.
+
+Las evidencias del desarrollo se almacenarán en la carpeta correspondiente y los documentos formales se organizarán dentro de `docs/`.
+
+Los cambios realizados deberán registrarse mediante commits con mensajes descriptivos que permitan identificar las modificaciones efectuadas.
