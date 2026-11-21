@@ -119,7 +119,27 @@ Los principales grupos beneficiados que identificamos son:
 
 **Difusión de decisiones:** Las decisiones tomadas en las reuniones verbales se registrarán al final de la sesión en el archivo `docs/expediente-inicial.md` o en el chat oficial. Todo acuerdo que modifique el rumbo del desarrollo quedará documentado de forma pública en el repositorio.
 
-## 12. Referencias.
+## 12. Preparación para la siguiente etapa 
+1.- Necesitamos averiguar sobre el proceso:
+- ¿En qué tipo de invernadero se va a trabajar?
+- ¿Qué tipo de plántula de tomate, en qué etapa y en qué tipo de maceta / charola se cultiva?
+- ¿Cada cuánto se riega, cuánta agua, a qué hora y cómo se seca?
+
+2.- Necesitamos averiguar sobre las personas involucradas:
+- ¿Quién es el usuario final real? 
+- ¿Qué precisión necesita realmente? 
+- ¿Qué hace actualmente cuando sospecha que falta o sobra agua?
+
+3.- Necesitamos averiguar sobre ¿cómo se atiende la necesidad hoy?:
+- ¿Cómo miden hoy la humedad? 
+- ¿Cada cuánto miden?
+- ¿Qué problemas tienen con ese método?
+
+4.- Necesitamos averiguar sobre la información técnica que nos falta:
+- ¿Cómo se hace la calibración frente a un método de referencia?
+- ¿Con qué voltaje va a trabajar? ¿3.3V o 5V del microcontrolador?
+
+## 13. Referencias.
 
 1.- Federlein, J. (2017). New ISA guidelines for managing a calibration program. InTech, International Society of Automation. https://www.isa.org/intech-home/2017/september-october/departments/new-isa-guidelines-for-managing-a-calibration-prog
 
